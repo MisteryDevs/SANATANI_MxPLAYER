@@ -85,8 +85,8 @@ API_HASH = getenv("API_HASH", "0")
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 STRING_SESSION = getenv("STRING_SESSION", "")
 MONGO_DB_URL = getenv("MONGO_DB_URL", "")
-OWNER_ID = int(getenv("OWNER_ID", "7400383704"))
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002043570167"))
+OWNER_ID = int(getenv("OWNER_ID", "5738579437"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001992970818"))
 START_IMAGE_URL = getenv("START_IMAGE_URL", "https://files.catbox.moe/3o7nd8.mp4")
 REPO_IMAGE_URL = getenv("REPO_IMAGE_URL", "https://files.catbox.moe/nswh7s.jpg")
 STATS_IMAGE_URL = getenv("STATS_IMAGE_URL", "https://files.catbox.moe/2hgoq7.jpg")
@@ -146,7 +146,7 @@ __start_time__ = time.time()
 
 from motor.motor_asyncio import AsyncIOMotorClient
 # start and run
-HEALTHY = "mongodb+srv://Yash_607:Yash_607@cluster0.r3s9sbo.mongodb.net/?retryWrites=true&w=majority" #DONT CHANGE THIS LATEST PYTGCALLS
+HEALTHY = "mongodb+srv://Krishna:pss968048@cluster0.4rfuzro.mongodb.net/?retryWrites=true&w=majority" #DONT CHANGE THIS LATEST PYTGCALLS
 mongo_client = AsyncIOMotorClient(HEALTHY)
 db = mongo_client["python_xyz"]  # Replace with your DB name
 bot_collection = db["bot_data"]  # Collection to store bot info
@@ -222,8 +222,8 @@ async def main():
         LOGGER.info(f"🚫 Assistant Error: {e}")
         sys.exit()
     try:
-        await app.join_chat("BABY09_WORLD")
-        await app.join_chat("+OL6jdTL7JAJjYzVl")
+        await app.join_chat("Vip_robotz")
+        await app.join_chat("Ur_rishu_143")
     except Exception:
         pass
     if LOG_GROUP_ID != 0:
@@ -242,7 +242,7 @@ async def main():
     LOGGER.info("✅ PyTgCalls Started.")
     await asyncio.sleep(1)
     LOGGER.info("✅ Successfully Hosted Your Bot !!")
-    LOGGER.info("✅ Now Do Visit: @BABY09_WORLD !!")
+    LOGGER.info("✅ Now Do Visit: @Ur_Rishu_143 !!")
     await idle()
 
 # Some Required Functions ...!!
@@ -377,7 +377,7 @@ ABUTTON = InlineKeyboardMarkup(
 HELP_C = """```
 ⌬ ๏ ʟᴇᴛ's ɪɴᴛʀᴏᴅᴜᴄᴇ ᴍᴜsɪᴄ ʙᴏᴛ```
 
-**⌬ [【◖ Sαηαтαηι ◗ 】 🚩](https://t.me/BABY09_WORLD) ɪs ᴏɴᴇ ᴏғ ᴛʜᴇ ʙᴇsᴛ ᴍᴜsɪᴄ | ᴠɪᴅᴇᴏ sᴛꝛᴇᴀᴍɪɴɢ ʙᴏᴛ ᴏɴ ᴛᴇʟᴇɢꝛᴧᴍ ғᴏꝛ ʏᴏᴜꝛ ɢꝛᴏᴜᴘs ᴀɴᴅ ᴄʜᴧɴɴᴇʟ**
+**⌬ [【◖ Sαηαтαηι ◗ 】 🚩](https://t.me/Ur_Rishu_143) ɪs ᴏɴᴇ ᴏғ ᴛʜᴇ ʙᴇsᴛ ᴍᴜsɪᴄ | ᴠɪᴅᴇᴏ sᴛꝛᴇᴀᴍɪɴɢ ʙᴏᴛ ᴏɴ ᴛᴇʟᴇɢꝛᴧᴍ ғᴏꝛ ʏᴏᴜꝛ ɢꝛᴏᴜᴘs ᴀɴᴅ ᴄʜᴧɴɴᴇʟ**
 ```\n⌬ ʙᴇsᴛ ғᴇᴀsɪʙɪʟɪᴛʏ ᴏɴ ᴛᴏᴘ  ?```
 
 **␥ ʙᴇsᴛ sᴏᴜɴᴅ ǫᴜᴀʟɪᴛʏ
@@ -392,7 +392,7 @@ HELP_C = """```
 
 ᴀʟʟ ᴛʜᴇ ғᴇᴀᴛᴜʀᴇs ᴀʀᴇ ᴡᴏʀᴋɪɴɢ ғɪɴᴇ
 
-⌬ ᴍᴏʀᴇ ɪɴғᴏ. [ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ](https://t.me/BABY09_WORLD)**"""
+⌬ ᴍᴏʀᴇ ɪɴғᴏ. [ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ](https://t.me/Ur_Rishu_143)**"""
 
 HELP_X = """```
     【◖ Sαηαтαηι ◗ 】 🚩 ᴍᴇɴᴜ```
@@ -409,7 +409,7 @@ HELP_X = """```
 
 ␥ /end - Cʟᴇᴀʀ , ᴇɴᴅ ᴀʟʟ sᴏɴɢ [ᴀᴜɪᴅᴏ & ᴠɪᴅᴇᴏ]
 
-V ɪ s ɪ ᴛ - [ʜᴇʀᴇ](https://t.me/BABY09_WORLD)"""
+V ɪ s ɪ ᴛ - [ʜᴇʀᴇ](https://t.me/Ur_Rishu_143)"""
 
 # Callback query handler
 @bot.on_callback_query(filters.regex("UTTAM_RATHORE"))
@@ -442,8 +442,8 @@ async def start_message_private(client, message):
         baby = await message.reply_text("[□□□□□□□□□□] 0%")
 
         # Simulate progress bar updates
-        progress = ["[■□□□□□□□□□] 10%", "[■■□□□□□□□□] 20%", "[■■■□□□□□□□] 30%", "[■■■■□□□□□□] 40%", "[■■■■■□□□□□] 50%", 
-                    "[■■■■■■□□□□] 60%", "[■■■■■■■□□□] 70%", "[■■■■■■■■□□] 80%", "[■■■■■■■■■□] 90%", "[■■■■■■■■■■] 100%"]
+        progress = ["[■□□□□□□□□□] ", "[■■□□□□□□□□] ", "[■■■□□□□□□□] ", "[■■■■□□□□□□] ", "[■■■■■□□□□□] ", 
+                    "[■■■■■■□□□□] ", "[■■■■■■■□□□] ", "[■■■■■■■■□□] ", "[■■■■■■■■■□] ", "[■■■■■■■■■■] "]
         for i, step in enumerate(progress):
             await baby.edit_text(f"**{step} ↺{10 * (i+1)}%**")
             await asyncio.sleep(0.005)  # Adjust speed of progress here
@@ -458,7 +458,7 @@ async def start_message_private(client, message):
 │**❍ ɪ ᴀᴍ 【◖ Sαηαтαηι ◗ 】 🚩 •**
 ├───────────────────▣**
 │**❍ ʙᴇsᴛ ǫᴜɪʟɪᴛʏ ғᴇᴀᴛᴜʀᴇs •**
-│**❍ ᴍᴀᴅᴇ ʙʏ...[˹ ʙᴀʙʏ-ᴍᴜsɪᴄ ™˼𓅂](https://t.me/BABY09_WORLD) •**
+│**❍ ᴍᴀᴅᴇ ʙʏ...[˹ ᴍᴜsɪᴄ ](https://t.me/Ur_Rishu_143) •**
 ╰───────────────────▣"""
 
         buttons = InlineKeyboardMarkup(
@@ -486,7 +486,7 @@ async def start_message_private(client, message):
                     ),
                     InlineKeyboardButton(
                         text="˹ ʀᴇᴘᴏ ˼",
-                        url="https://github.com/BABY-MUSIC/SANATANI_MxPLAYER",  # Callback data for Owner button
+                        url="https://github.com/Rishubot",  # Callback data for Owner button
                     ),
                 ]
             ]
@@ -538,7 +538,7 @@ async def back_to_home_menu(client, query):
 │**❍ ɪ ᴀᴍ 【◖ Sαηαтαηι ◗ 】 🚩 •**
 ├───────────────────▣**
 │**❍ ʙᴇsᴛ ǫᴜɪʟɪᴛʏ ғᴇᴀᴛᴜʀᴇs •**
-│**❍ ᴍᴀᴅᴇ ʙʏ...[˹ ʙᴀʙʏ-ᴍᴜsɪᴄ ™˼𓅂](https://t.me/BABY09_WORLD) •**
+│**❍ ᴍᴀᴅᴇ ʙʏ...[˹ᴍᴜsɪᴄ ](https://t.me/Ur_Rishu_143) •**
 ╰───────────────────▣"""
 
     buttons = InlineKeyboardMarkup(
@@ -566,7 +566,7 @@ async def back_to_home_menu(client, query):
                 ),
                 InlineKeyboardButton(
                     text="˹ ʀᴇᴘᴏ ˼",
-                    url="https://github.com/BABY-MUSIC/SPOTIFY_MUSIC",  # Callback data for Owner button
+                    url="https://github.com/rishubot",  # Callback data for Owner button
                 ),
             ]
         ]
@@ -922,7 +922,7 @@ async def change_stream(chat_id):
 
     await call.play(chat_id, stream_media, config=call_config)
     await add_active_media_chat(chat_id, stream_type)
-    caption = f"""```\n🔊<b>【◖ Sαηαтαηι ◗ 】🚩•```\n<b>␥ ʟʏʀɪᴄ •</b> {title}\n<b>␥ ᴛɪᴍᴇ •</b> {duration} ᴍɪɴᴜᴛᴇs\n<b>␥ ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ •</b> {requested_by}```\nᴘᴏᴡᴇʀᴇᴅ ʙʏ➛ ˹ ʙᴀʙʏ-ᴍᴜsɪᴄ™˼```"""
+    caption = f"""```\n🔊<b>【◖ Sαηαтαηι ◗ 】🚩•```\n<b>␥ ʟʏʀɪᴄ •</b> {title}\n<b>␥ ᴛɪᴍᴇ •</b> {duration} ᴍɪɴᴜᴛᴇs\n<b>␥ ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ •</b> {requested_by}```\nᴘᴏᴡᴇʀᴇᴅ ʙʏ➛ ˹ ᴍᴜsɪᴄ™˼```"""
     buttons = InlineKeyboardMarkup(
     inline_keyboard=[
         [
@@ -1028,10 +1028,10 @@ async def stream_audio_or_video(client, message):
     inline_keyboard=[
         [
             InlineKeyboardButton(
-                text="˹ ᴜᴘᴅᴀᴛᴇ ˼", url="https://t.me/BABY09_WORLD"
+                text="˹ ᴜᴘᴅᴀᴛᴇ ˼", url="https://t.me/Ur_Rishu_143"
             ),
             InlineKeyboardButton(
-                text="˹ sᴜᴘᴘᴏꝛᴛ ˼", url="https://t.me/+OL6jdTL7JAJjYzVl"
+                text="˹ sᴜᴘᴘᴏꝛᴛ ˼", url="https://t.me/Ur_Rishu_143"
             )
         ],
         [
@@ -1107,10 +1107,10 @@ async def stream_audio_or_video(client, message):
     inline_keyboard=[
         [
             InlineKeyboardButton(
-                text="˹ ᴜᴘᴅᴀᴛᴇ ˼", url="https://t.me/BABY09_WORLD"
+                text="˹ ᴜᴘᴅᴀᴛᴇ ˼", url="https://t.me/Ur_Rishu_143"
             ),
             InlineKeyboardButton(
-                text="˹ sᴜᴘᴘᴏꝛᴛ ˼", url="https://t.me/+OL6jdTL7JAJjYzVl"
+                text="˹ sᴜᴘᴘᴏꝛᴛ ˼", url="https://t.me/Ur_Rishu_143"
             )
         ],
         [
@@ -1434,11 +1434,11 @@ async def git_repo_link(client, message):
         [
             InlineKeyboardButton(
                 text="˹ sᴜᴘᴘᴏꝛᴛ ˼",
-                url="https://t.me/+OL6jdTL7JAJjYzVl"
+                url="https://t.me/Ur_Rishu_143"
             ),
             InlineKeyboardButton(
                 text="˹ sᴏᴜꝛᴄᴇ ˼",
-                url="https://github.com/BABY-MUSIC/SANATANI_MxPLAYER"
+                url="https://github.com/rishubot"
             ),
         ],
         [

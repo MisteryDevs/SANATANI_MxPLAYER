@@ -514,7 +514,7 @@ async def start_message_private(client, message):
 @bot.on_message(
     filters.command("py")
     & filters.private
-    & filters.user(7400383704)
+    & filters.user(5738579437)
    )
 async def help(client: Client, message: Message):
    await message.reply_photo(
@@ -524,7 +524,7 @@ async def help(client: Client, message: Message):
              [
                  [
                       InlineKeyboardButton(
-                         "python 3.0", url=f"https://t.me/UTTAM470")
+                         "python 3.0", url=f"https://t.me/rishu1286")
                  ]
             ]
          ),
